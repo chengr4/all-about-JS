@@ -3,15 +3,16 @@
 All about JavaScript
 
 + [Object Oriented](/OO)
++ [High-order-functions&Arrays](/High-order-functions&Arrays)
 
 ## 學習事項
 
 ### 初級
 
-+ [ ] 知道組合寄生繼承，知道class繼承
-+ [x] 知道怎麼創建類function + class
-+ [x] 知道event loop是什麼
-+ [ ] 知道閉包在實際場景中怎麼用，常見的坑
++ [ ] 知道組合寄生繼承，知道 class繼承
++ [x] 知道怎麼創建類 function + class
++ [x] 知道 event loop 是什麼
++ [ ] 知道 Closure(閉包) 在實際場景中怎麼用，常見的坑
 + [x] 知道 module 是什麼，怎麼用
 + [ ] 掌握基礎 DS，比如 Stack, Tree，並了解這些 DS 計算機基礎中的作用
 + [ ] `forEach`, `map`, `reduce` etc.
