@@ -21,4 +21,4 @@ arr.reduce(callback[accumulator, currentValue, currentIndex, array], initialValu
 
 ## References
 
-[1] [Traversy Media. JavaScript Higher Order Functions & Arrays (2018)](https://youtu.be/rRgD1yVwIvE)
+1. [Traversy Media. JavaScript Higher Order Functions & Arrays (2018)](https://youtu.be/rRgD1yVwIvE)
