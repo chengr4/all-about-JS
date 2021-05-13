@@ -13,7 +13,7 @@ c
 */
 
 function* gen2() {
-  yield console.log("a"); // run this line and pause
+  yield console.log("a"); // run this line and pause in front of yield
   console.log("b");
   console.log("c");
 }
@@ -30,3 +30,10 @@ myGen3.next();
 myGen3.next(2);
 myGen3.next(4);
 console.log("x is: "+ myGen3.next().value);
+
+// asynchronous part begin
+function* gen4() {
+  var x = yield 'a';
+ 
+  return x;
+}
