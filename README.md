@@ -4,6 +4,7 @@ All about JavaScript
 
 + [Object Oriented](/OO)
 + [High-order-functions&Arrays](/High-order-functions&Arrays)
++ [Generators](/Generators)
 
 ## 學習事項
 
