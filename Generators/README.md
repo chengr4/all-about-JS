@@ -20,4 +20,3 @@ It don't fire the code, instead, it will set up the generator and **return** tow
 ## References
 
 1. [THe Net Ninja. JavaScript ES6 Tutorial #11 - Generators (2016)](https://youtu.be/Ojis8iFIjDQ)
-
