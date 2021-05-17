@@ -37,3 +37,27 @@ function* gen4() {
  
   return x;
 }
+
+// A test
+function* foo() {
+  yield 123;
+}
+
+function* bar() {
+  return yield 123;
+}
+
+function* lee() {
+  return 123;
+}
+
+var f = foo();
+var b = bar();
+var l = lee();
+
+console.log(f.next());
+console.log(f.next(2));
+console.log(b.next());
+console.log(b.next(2));
+console.log(l.next());
+console.log(l.next(2));

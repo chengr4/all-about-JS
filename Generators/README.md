@@ -51,4 +51,5 @@ It don't fire the code, instead, it will set up the generator and **return** tow
 1. [THe Net Ninja. JavaScript ES6 Tutorial #11 - Generators (2016)](https://youtu.be/Ojis8iFIjDQ)
 2. [Asynchronous JavaScript #5 - Generator](https://youtu.be/pnS2lBQuLGc)
 3. [Understanding Generator Functions & Using Redux Saga](https://youtu.be/o3A9EvMspig)
+4. [JS Generators: How is `return yield` different from `yield`?](https://stackoverflow.com/questions/42309185/js-generators-how-is-return-yield-different-from-yield)
 
