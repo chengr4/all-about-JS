@@ -6,7 +6,6 @@
 
 + `Window` Object
 
-  innerHeight, innerWidth properties => 視窗的長寬
+  `innerHeight`, `innerWidth` properties => 視窗的長寬
 
 ## Class
-

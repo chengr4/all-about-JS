@@ -10,7 +10,7 @@ All about JavaScript
 
 ### 初級
 
-+ [ ] 知道組合寄生繼承，知道 class繼承
++ [ ] 知道組合寄生繼承，知道 class 繼承
 + [x] 知道怎麼創建類 function + class
 + [x] 知道 event loop 是什麼
 + [ ] 知道 Closure(閉包) 在實際場景中怎麼用，常見的坑
@@ -28,4 +28,5 @@ All about JavaScript
 
 ## References
 
-[1] [阿里前端面试指南，P6/P6+/P7的能力标准都在这儿了](https://zhuanlan.zhihu.com/p/143611353)
+1. [阿里前端面试指南，P6/P6+/P7的能力标准都在这儿了](https://zhuanlan.zhihu.com/p/143611353)
+2. [You don't Know JS](https://github.com/getify/You-Dont-Know-JS)
