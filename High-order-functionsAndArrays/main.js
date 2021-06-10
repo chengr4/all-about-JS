@@ -21,7 +21,7 @@ const canDrink = ages.filter((element) => {
   }
 });
 
-// cleaner
+// cleaner code
 const canDrink2 = ages.filter( element => element >= 18);
 
 console.log(canDrink);
