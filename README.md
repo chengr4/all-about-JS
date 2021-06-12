@@ -1,10 +1,36 @@
-# all-about-JS
+# All-about-JS
 
 All about JavaScript
 
 + [Object Oriented](/OO)
 + [High-order-functions&Arrays](/High-order-functions&Arrays)
 + [Generators](/Generators)
+
+## Some notes
+
+**What is a polyfill ?**
+
+如果 forwards-compatibility issue 不是與新語法 (new syntax) 有關，而是因為 API method 太新，最常見的解決方案是為該缺少的 API method 在舊環境提供一個定義，這種 pattern 稱為 **polyfill** (aka "shim")。
+
+例如：
+
+```javascript
+// getSomeRecords() returns us a promise for some
+// data it will fetch
+var pr = getSomeRecords();
+
+// show the UI spinner while we get the data
+startSpinner();
+
+pr
+.then(renderRecords)   // render if successful
+.catch(showError)      // show an error if not
+.finally(hideSpinner)  // always hide the spinner
+```
+
+`finally(..)` method 是 ES2019 feature，因此在 pre-ES2019 需要 polyfill。
+
+> Transpilers like Babel typically detect which polyfills your code needs and provide them automatically for you. But occasionally you may need to include/define them explicitly, which works similar to the snippet we just looked at.
 
 ## 學習事項
 
