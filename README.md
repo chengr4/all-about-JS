@@ -8,7 +8,7 @@ All about JavaScript
 
 ## Some notes
 
-**What is a polyfill ?**
+### What is a polyfill ?
 
 如果 forwards-compatibility issue 不是與新語法 (new syntax) 有關，而是因為 API method 太新，最常見的解決方案是為該缺少的 API method 在舊環境提供一個定義，這種 pattern 稱為 **polyfill** (aka "shim")。
 
@@ -31,6 +31,13 @@ pr
 `finally(..)` method 是 ES2019 feature，因此在 pre-ES2019 需要 polyfill。
 
 > Transpilers like Babel typically detect which polyfills your code needs and provide them automatically for you. But occasionally you may need to include/define them explicitly, which works similar to the snippet we just looked at.
+
+****
+
+### Two motivations for WASM (Web Assembly)
+
+1. Improve the potential performance
+2. Bring more parity for non-JS languages to the web platform
 
 ## 學習事項
 
