@@ -6,7 +6,20 @@ All about JavaScript
 + [High-order-functions&Arrays](/High-order-functions&Arrays)
 + [Generators](/Generators)
 
-## Some notes
+## Value
+
+Values = `object` + `primitive value`
+
+Primitive value: strings, numbers, booleans, `null`, `defined`, `Symbol`
+
+Object: **arrays**, objects
+
+### `undefined` vs. `null`
+
++ Both are **primitive value**, and usually are used indicate absence of a value
++ It is safer and best to use only  `undefined` as the **single empty value**
+
+## Other Notes
 
 ### What is a polyfill ?
 
