@@ -19,6 +19,22 @@ Object: **arrays**, objects
 + Both are **primitive value**, and usually are used indicate absence of a value
 + It is safer and best to use only  `undefined` as the **single empty value**
 
+## Comparisons
+
+the `===` operator has two special cases:
+
+```javascript
+NaN === NaN; // false
+0 === -0; // true
+```
+
+Since the *lying* about such comparisons can be bothersome, it's best to avoid using `===` for them:
+
++ For `NaN` comparisons, use the `Number.isNaN(..)` utility
++ For `-0` comparison, use the `Object.is(..)` utility
+
+> Humorously, you could think of `Object.is(..)` as the "quadruple-equals" `====`, the really-really-strict comparison! (真的會笑死
+
 ## Other Notes
 
 ### What is a polyfill ?
