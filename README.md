@@ -21,6 +21,22 @@ Object: **arrays**, objects
 
 ## Comparisons
 
+### `==` vs. `===`
+
++ If the comparison is between the same value type, both `==` and `===` **do exactly the same thing, no difference whatsoever**
++ If the value types being compared are different, `==` allows type conversions *first*. (aka coercive equality)
+
+例如：
+
+```javascript
+42 == "42"; // true
+1 == true; // true
+```
+
+> `==` prefers primitive numeric comparisons
+
+### About `===`
+
 the `===` operator has two special cases:
 
 ```javascript
