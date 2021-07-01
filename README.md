@@ -94,7 +94,7 @@ pr
 + [ ] 知道 Closure(閉包) 在實際場景中怎麼用，常見的坑
 + [x] 知道 module 是什麼，怎麼用
 + [ ] 掌握基礎 DS，比如 Stack, Tree，並了解這些 DS 計算機基礎中的作用
-+ [ ] `forEach`, `map`, `reduce` etc.
++ [x] `forEach`, `map`, `reduce` etc.
 
 ### 中級
 
@@ -108,3 +108,4 @@ pr
 
 1. [阿里前端面试指南，P6/P6+/P7的能力标准都在这儿了](https://zhuanlan.zhihu.com/p/143611353)
 2. [You don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
