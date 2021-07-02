@@ -51,6 +51,37 @@ Since the *lying* about such comparisons can be bothersome, it's best to avoid u
 
 > Humorously, you could think of `Object.is(..)` as the "quadruple-equals" `====`, the really-really-strict comparison! (真的會笑死
 
+## Iterables
+
+ES6 defined the basic data structure/collection types in JS as iterables. This includes strings, arrays, maps, sets, and others.
+
+Iterate the characters in a string one at a time:
+
+```javascript
+var greeting = "Hello world!";
+var chars = [ ...greeting ]; // [ "H", "e", "l", "l", "o", " ", "w", "o", "r", "l", "d", "!" ]
+```
+
+> `...`: spread operator
+
+if we want the `index` *and*` value` in an array iteration, we can make an entries iterator with the `entries()` method:
+
+```javascript
+var arr = [ 10, 20, 30 ];
+
+for (let [idx,val] of arr.entries()) {
+    console.log(`[${ idx }]: ${ val }`);
+}
+// [0]: 10
+// [1]: 20
+// [2]: 30
+
+```
+
+### Map
+
+
+
 ## Other Notes
 
 ### What is a polyfill ?
