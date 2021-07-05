@@ -60,6 +60,30 @@ assignment.call(otherHomework);
 
 Another way to invoke a function is with the `call(...)` method, which takes an object (`otherHomework` here) to use for setting the `this` reference for the function call. The property reference `this.topic` resolves to `"Math"`.
 
+## `this` with `prototype`
+
+```javascript
+var homework = {
+    study() {
+        console.log(`Please study ${ this.topic }`);
+    }
+};
+
+var jsHomework = Object.create(homework);
+jsHomework.topic = "JS";
+jsHomework.study();
+// Please study JS
+
+var mathHomework = Object.create(homework);
+mathHomework.topic = "Math";
+mathHomework.study();
+// Please study Math
+```
+
+The two objects `jsHomework` and `mathHomework` each prototype link to the single `homework` object, which has the `study()` function. `jsHomework` and `mathHomework` are each given their own `topic` property.
+
+> In many other languages, it would seem `this` would be `homework` because the `study()` method is indeed defined on `homework`, but It is different in JS.
+
 ## Benefit
 
 1. 一個 close over 的 function 無法使用不同 scope 的 variables，但是藉由 `this` (dynamic context awareness) 在某些情況下可以解決這個問題
