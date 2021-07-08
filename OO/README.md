@@ -2,6 +2,8 @@
 
 > Everything in JS is an Object
 
+JS is one of very few languages where you have the option to create objects directly and explicitly, without first defining their structure in a class.
+
 ## Specific Objects
 
 + `Window` Object
