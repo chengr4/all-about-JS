@@ -24,6 +24,23 @@ Object: **arrays**, objects, functions
 + Both are **primitive value**, and usually are used indicate absence of a value
 + It is safer and best to use only  `undefined` as the **single empty value**
 
+### Value Type Determination
+
+```javascript
+typeof 42;                  // "number"
+typeof "abc";               // "string"
+typeof true;                // "boolean"
+typeof undefined;           // "undefined"
+typeof null;                // "object" -- oops, bug!
+typeof { "a": 1 };          // "object"
+typeof [1,2,3];             // "object"
+typeof function hello(){};  // "function"
+```
+
+| WARNING:                                                     |
+| ------------------------------------------------------------ |
+| `typeof null` unfortunately returns `"object"` instead of the expected `"null"`. Also, `typeof` returns the specific `"function"` for functions, but not the expected `"array"` for arrays. |
+
 ## Comparisons
 
 ### `==` vs. `===`
