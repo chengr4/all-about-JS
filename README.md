@@ -13,7 +13,11 @@ Values = `object` + `primitive value`
 
 Primitive value: strings, numbers, booleans, `null`, `defined`, `Symbol`
 
-Object: **arrays**, objects
+Object: **arrays**, objects, functions
+
+> Primitive values are always assigned/passed as **value copies** in JS
+>
+> 
 
 ### `undefined` vs. `null`
 
