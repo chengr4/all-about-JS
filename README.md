@@ -206,4 +206,5 @@ pr
 
 1. [阿里前端面试指南，P6/P6+/P7的能力标准都在这儿了](https://zhuanlan.zhihu.com/p/143611353)
 2. [You don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+3. [Web Dev simplified; Learn Dynamic Module Imports In 11 Minutes (2021.07)](https://youtu.be/ddVm53j80vc)
 
