@@ -177,6 +177,35 @@ pr
 
 ****
 
+### Some function express forms
+
+```javascript
+// IIFE: 定義完馬上就執行
+(function(){ .. })();
+(function namedIIFE(){ .. })();
+
+// asynchronous IIFE
+(async function(){ .. })();
+(async function namedAIIFE(){ .. })();
+
+// arrow function expressions
+var f;
+f = () => 42;
+f = x => x * 2;
+f = (x) => x * 2;
+f = (x,y) => x * y;
+f = x => ({ x: x * 2 });
+f = x => { return x * 2; };
+f = async x => {
+    var y = await doSomethingAsync(x);
+    return y * 2;
+};
+someOperation( x => x * 2 );
+// ..
+```
+
+> Keep in mind that arrow function expressions are **syntactically anonymous**, meaning the syntax doesn't provide a way to provide a direct name identifier for the function.
+
 ### Two motivations for WASM (Web Assembly)
 
 1. Improve the potential performance
