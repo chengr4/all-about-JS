@@ -22,6 +22,7 @@ function Admin(...args){
 
 Admin.prototype = Object.create(User.prototype);
 
+// put a deleteUser property on Admin.property object an point at an anonymous function
 Admin.prototype.deleteUser = function(u){
   users = users.filter(user => {
       return user.email != u.email;
