@@ -38,6 +38,27 @@ function* gen4() {
   return x;
 }
 
+// Infinite loop
+console.log("Infinite loop start");
+function* generateId() {
+  let id = 1;
+
+  while(true) {
+    yield id;
+    id++;
+  }
+}
+
+const generatorObject = generateId();
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+
+console.log("Infinite loop end");
+
 // A test
 function* foo() {
   yield 123;
@@ -49,7 +70,7 @@ function* bar() {
 
 function* lee() {
   return 123;
-}
+} 
 
 var f = foo();
 var b = bar();
