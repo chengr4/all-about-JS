@@ -3,11 +3,11 @@
 + Generators are functions which can be exited and later re-entered.
 + When put a `*` after a function, it is a generator.
 
-E.g.
+  E.g.
 
-```javascript
-function* gen() {} 
-```
+  ```javascript
+  function* gen() {} 
+  ```
 
 It don't fire the code, instead, it will set up the generator and **return** towards an interator.
 
