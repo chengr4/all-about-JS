@@ -16,7 +16,22 @@ It don't fire the code, instead, it will set up the generator and **return** tow
 1. Pause the iterator by `yield`
 2. then `return` value
 3. Yield can also take in a value when we retart the function
-4. `yield*` is used to delegate to another outside generator function
+
+### `yield*`
+
+`yield*` is used to delegate to another outside generator function.
+
+```javascript
+function* func1() {
+  yield 42;
+}
+
+function* func2() {
+  yield* func1();
+}
+
+const iterator = func2(); // 42
+```
 
 ## Use cases
 
