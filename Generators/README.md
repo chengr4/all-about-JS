@@ -22,15 +22,26 @@ It don't fire the code, instead, it will set up the generator and **return** tow
 `yield*` is used to delegate to another outside generator function.
 
 ```javascript
-function* func1() {
-  yield 42;
+function* g1() {
+  yield 2;
+  yield 3;
+  yield 4;
 }
 
-function* func2() {
-  yield* func1();
+function* g2() {
+  yield 1;
+  yield* g1();
+  yield 5;
 }
 
-const iterator = func2(); // 42
+const iterator = g2();
+
+console.log(iterator.next()); // {value: 1, done: false}
+console.log(iterator.next()); // {value: 2, done: false}
+console.log(iterator.next()); // {value: 3, done: false}
+console.log(iterator.next()); // {value: 4, done: false}
+console.log(iterator.next()); // {value: 5, done: false}
+console.log(iterator.next()); // {value: undefined, done: true}
 ```
 
 ## Use cases
