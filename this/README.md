@@ -91,3 +91,4 @@ The two objects `jsHomework` and `mathHomework` each prototype link to the singl
 ## References
 
 1. [Ben Howdle; Understanding JavaScript Bind() (2014.1)](https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
+2. [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
