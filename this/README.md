@@ -87,3 +87,7 @@ The two objects `jsHomework` and `mathHomework` each prototype link to the singl
 ## Benefit
 
 1. 一個 close over 的 function 無法使用不同 scope 的 variables，但是藉由 `this` (dynamic context awareness) 在某些情況下可以解決這個問題
+
+## References
+
+1. [Ben Howdle; Understanding JavaScript Bind() (2014.1)](https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
