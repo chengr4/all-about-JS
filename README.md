@@ -6,6 +6,7 @@ All about JavaScript
 + [High-order-functions&Arrays](/High-order-functions&Arrays)
 + [Generators](/Generators)
 + [this](/this)
++ [ScopeAndClosures](/ScopeAndClosures)
 
 ## Value
 
