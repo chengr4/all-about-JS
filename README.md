@@ -167,6 +167,10 @@ someOperation( x => x * 2 );
 
 ## 學習事項
 
+### Finished
+
++ [x] [YDKJSY - Get Started](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md)
+
 ### 初級
 
 + [ ] 知道組合寄生繼承，知道 class 繼承
