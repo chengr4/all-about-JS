@@ -165,6 +165,25 @@ someOperation( x => x * 2 );
 1. Improve the potential performance
 2. Bring more parity for non-JS languages to the web platform
 
+### Compiling Code
+
+In classic compiler theory, a program is processed by a compiler in three basic stages:
+
+1. **Tokenizing/Lexing**: Breaking up a string of characters into meaningful (to the language) chunks, called **tokens**. 
+ 
+E.g.
+
+`var x = 2;` => `var`, `x`, `=`, `2`, and `;`
+> Whitespace may or may not be persisted as a token, depending on whether it's meaningful or not.
+
+2. **Parsing**: Taking a stream (array) of tokens and turning it into a tree of nested elements, which all represent the grammatical structure of the program. This is called an **Abstract Syntax Tree (AST)*.
+
+For example, the tree for `var x = 2;` might start with a top-level node called **VariableDeclaration**, with a child node called *Identifier* (whose value is `x`), and another child called **AssignmentExpression** which itself has a child called **NumericLiteral** (whose value is `2`).
+
+3. **Code Generation**: taking an AST and turning it into executable code. This part varies greatly depending on the language, the platform it's targeting, and other factors.
+
+The JS engine takes the just described AST for `var x = 2;` and turns it into a set of machine instructions to actually create a variable called `x` (including reserving memory, etc.), and then store a value into `x`.
+
 ## 學習事項
 
 ### Finished
