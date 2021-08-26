@@ -1,4 +1,4 @@
-# All-about-JS
+# All about JS
 
 All about JavaScript
 
@@ -6,7 +6,7 @@ All about JavaScript
 + [High order functions & Arrays](/High-order-functions&Arrays)
 + [Generators](/Generators)
 + [this](/this)
-+ [Scope And Closures](/ScopeAndClosures)
++ [Scope and Closures](/ScopeAndClosures)
 
 ## Value
 
