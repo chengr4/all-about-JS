@@ -6,6 +6,10 @@
 
     > (Cheating) Modify Scope during Runtime: 1. use `eval(..)`, 2. use `with` => But higely not recommend
 
+### Lexical Scope
+
+
+
 ## Closure
 
 定義：Closure 是指 function 記住並繼續存取其 scope 外的 variable，即使該 function 在不同的 scope 中執行。
