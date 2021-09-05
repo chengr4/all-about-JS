@@ -1,10 +1,10 @@
 # Scope & Closures
 
-
-
 ## Scope
 
-1. Scope is primarily determined during **compilation**.
+1. Scope is primarily determined during **compilation** => Sould not renerally be affected by runtime conditions.
+
+    > (Cheating) Modify Scope during Runtime: 1. use `eval(..)`, 2. use `with` => But higely not recommend
 
 ## Closure
 
