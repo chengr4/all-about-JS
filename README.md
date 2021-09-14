@@ -6,6 +6,10 @@
 + [this](/this)
 + [Scope and Closures](/ScopeAndClosures)
 
+## Attributes
+
+1. Dynamically typed (use `var` instead of `int, float, String...`)
+
 ## Value
 
 Values = `object` + `primitive value`
@@ -100,6 +104,26 @@ for (let [idx,val] of arr.entries()) {
 ```
 
 ### Map
+
+## JS Engine
+
++ Browser: Chakra, JavaScriptCore, Spidermonkey, V8
++ Node.js: Chakra, V8, SpiderNode
++ Electron: V8
++ IoT: Duktape, JerryScript
+
+### JIT Compilation (Just In Time Compilation)
+
+> JS 不是**先**被 compile 完成然後**再**執行，而是一邊 compile 一邊執行，並且交互加速
+
+### Compilers
+
+Modern engines have at lease two compilers, one of them is an optimising compiler and the other is a baseline compiler
+
+1. **Re-compile** "hot" functions (being used a lot) with type info. from previous execution
+2. **De-compile** if the type has changes
+
+In V8 engine, the baseline compiler is an intepreter called "Ignition" and the optimizing compiler is called "TurboFan" (2017).
 
 ## Other Notes
 
