@@ -2,12 +2,19 @@
 
 ## Scope
 
-1. Scope is primarily determined during **compilation** => Sould not renerally be affected by runtime conditions.
+Scope is primarily determined during **compilation** => Sould not renerally be affected by runtime conditions.
 
-    > (Cheating) Modify Scope during Runtime: 1. use `eval(..)`, 2. use `with` => But higely not recommend
+> (Cheating) Modify Scope during Runtime: 
+> 1. use `eval(..)`
+> 2. use `with` => But higely not recommend
+
+**3 Keys:**
+
+1. Variables are declared in specific scopes, which can be thought of as colored marbles from matching-color buckets
+2. Any variable reference that appears in the scope where it was declared, or appears in any deeper nested scopes, will be labeled a marble of that same color—unless an intervening scope (介於中間的 scope) "shadows" the variable declaration
+3. 引擎在編譯期間決定 scope(colored bucket) 和它的 variables(marble)，這些訊息便於 code execution 期間找查變數
 
 ### Lexical Scope
-
 
 
 ## Closure
