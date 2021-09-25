@@ -5,7 +5,7 @@
 + [Generators](./Generators)
 + [this](./this)
 + [Scope and Closures](./ScopeAndClosures)
-+ [Functional Programming](./Functional-programming)
++ [Functional Programming](./Functional-Programming)
 
 ## Attributes
 
