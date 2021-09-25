@@ -1,10 +1,11 @@
 # All about JavaScript
 
-+ [Object Oriented](/OO)
-+ [High order functions & Arrays](/High-order-functions&Arrays)
-+ [Generators](/Generators)
-+ [this](/this)
-+ [Scope and Closures](/ScopeAndClosures)
++ [Object Oriented](./OO)
++ [High order functions & Arrays](./High-order-functions&Arrays)
++ [Generators](./Generators)
++ [this](./this)
++ [Scope and Closures](./ScopeAndClosures)
++ [Functional Programming](./Functional-programming)
 
 ## Attributes
 
