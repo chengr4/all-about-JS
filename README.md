@@ -211,7 +211,7 @@ In classic compiler theory, a program is processed by a compiler in three basic 
 
 ### Finished
 
-+ [x] [YDKJSY - Get Started](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md)
++ [x] [YDKJS - Get Started](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md)
 + [ ] [YDKJS - Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/README.md)
 
 ### 初級
