@@ -2,10 +2,10 @@
 
 ## Contents
 
-+ forEach()
-+ filter()
-+ map()
-+ sort()
++ [forEach()](#foreach)
++ [filter()](#filter)
++ [map()](map)
++ [sort()](sort)
 
 ## forEach()
 
