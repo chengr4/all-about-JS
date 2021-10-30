@@ -7,6 +7,19 @@
 + [Scope and Closures](./ScopeAndClosures)
 + [Functional Programming](./Functional-Programming)
 
+## History of JS
+
+| 時機點 | 事紀 | JS |
+| ----- | ---- | -- |
+| 1993 | 網頁問世 | 1995 JS 問世 |
+| 1997 | .com 起飛 | JS 製作網頁元件 |
+| 2000 | .com 泡沫 | ajax |
+| 2005 |  Web2.0 | jQuery |
+| 2008 | 微網誌 | node.js 問世 |
+| 2009 | Smart phone, APP | RWD, 前端開始服務手機、平板 |
+| 2013 | 相片/影片分享浪潮 | React, Vue, Angular |
+| 2017 | APP 卸載朝 | PWA |
+
 ## Attributes
 
 1. Dynamically typed (use `var` instead of `int, float, String...`)
