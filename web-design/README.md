@@ -15,20 +15,19 @@
     - Express.js
 - SSR + SPA
     - Next.js
-    - Nuxt.js
     - GatsbyJS
 
 ## 純 CSR 難以解決的問題
 
 + 跟動態資料相關
-  
-E.g. 
+
+E.g.
 
 Blog 用 API 拿文章
     - SEO問題
     - 分享文章: open graph protocol => metadata `og` 多為動態資料
     
-## 前往 SSR 的旅程
+### 前往 SSR 的旅程
 
 ![](https://i.imgur.com/AXMf4Mi.png)
 
@@ -37,21 +36,25 @@ Blog 用 API 拿文章
 2. [react-snap](https://github.com/stereobooster/react-snap) 幫你把網站先 Render 好並 Cache 起來
 3. pre-render (netlify / prerender.io)
 
-> 類似第一點
-    - 很容易跟網站衝突
+> 類似第一點和第二點的整合
+
     - Advantage
         - 方便
     - Disadvantage
         - $$$
-        - cache 時間長短很難抓
-4. Hybrid
-    * 先 SSR 再 CSR
-    * 對 Rendering 有額外的優化
-    * 但開發時要小心元件的使用
+        - cache 時間長短很難抓: 某些頁面 cache 短，某些長
+4. Hybrid (nextjs, gatsbyjs)
+    + 先 SSR 再 CSR
+    + 對 Rendering 有額外的優化
+    + 缺點：但開發時要小心元件的使用
 
 
-## 真正放棄 CSR 的理由
-- 使用 CSR 要知道 client 登入狀態，必須先打一個 Request 到 server
+### 真正放棄 CSR 的理由
+
+> 對做 multi tenant 的人尤其辛苦
+
++ 使用 CSR 要知道 client 登入狀態，必須先打一個 Request 到 server
++ SEO 無法累積 (？我無法理解)
 
 ## References
 
