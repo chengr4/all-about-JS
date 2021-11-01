@@ -2,16 +2,22 @@
 
 ## Contents
 
-+ forEach()
-+ filter()
-+ map()
-+ sort()
++ [forEach()](#foreach)
++ [filter()](#filter)
++ [map()](map)
++ [find()](#find)
++ [reduce()](#reduce)
++ [sort()](sort)
 
 ## forEach()
 
 > Q: 可否中斷 forEach()
 > 
 > A: There is no way to stop or break a forEach() loop other than by throwing an exception. If you need such behavior, the forEach() method is the wrong tool. (from MDN Web Docs)
+
+## find()
+
+E.g.
 
 ## reduce()
 
