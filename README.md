@@ -6,6 +6,7 @@
 + [this](./this)
 + [Scope and Closures](./ScopeAndClosures)
 + [Functional Programming](./Functional-Programming)
++ [Modules](./modules)
 
 ## History of JS
 
