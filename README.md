@@ -104,7 +104,7 @@ var chars = [ ...greeting ]; // [ "H", "e", "l", "l", "o", " ", "w", "o", "r", "
 
 > `...`: spread operator
 
-if we want the `index` *and*` value` in an array iteration, we can make an entries iterator with the `entries()` method:
+if we want the `index` *and* `value` in an array iteration, we can make an entries iterator with the `entries()` method:
 
 ```javascript
 var arr = [ 10, 20, 30 ];
