@@ -20,7 +20,7 @@ We use "trie" structure to make copying arrays or objects more efficient
 > Google Hash Array Mapped Trie
 
 ```javascript
-E.g.
+// E.g.
 const zoo = {
   m: "monkey",
   r: "rabbit",
