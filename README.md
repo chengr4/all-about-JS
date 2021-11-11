@@ -7,6 +7,7 @@
 + [Scope and Closures](./ScopeAndClosures)
 + [Functional Programming](./Functional-Programming)
 + [Modules](./modules)
++ [About Memory](./memory)
 
 ## History of JS
 
