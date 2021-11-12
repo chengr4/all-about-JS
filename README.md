@@ -143,6 +143,22 @@ In V8 engine, the baseline compiler is an intepreter called "Ignition" and the o
 
 ## Other Notes
 
+### `fetch API`
+
+```javascript
+fetch('XXXXXXX')
+  .then(res => {
+    // the way to check if calling API succeeds
+    if(res.ok) {
+      
+    }  
+  })
+  .then(data => console.log(data))
+  .catch(err => console.log(error));
+```
+
+> `fetch` will always **succeed** (So even the server return status 400, it will "fetch" something)
+
 ### What is a polyfill ?
 
 如果 forwards-compatibility issue 不是與新語法 (new syntax) 有關，而是因為 API method 太新，最常見的解決方案是為該缺少的 API method 在舊環境提供一個定義，這種 pattern 稱為 **polyfill** (aka "shim")。
