@@ -1,5 +1,9 @@
 # All about TypeScript
 
+- [interface](#interface)
+- [type](#type)
+- [Generics](#generics)
+
 ## `interface`
 
 - TS only
@@ -93,6 +97,8 @@ type Youtuber = {
 // Use Union
 type Harry = Person | Youtuber;
 ```
+
+## Generics
 
 ## References
 
