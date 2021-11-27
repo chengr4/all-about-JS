@@ -258,7 +258,7 @@ In classic compiler theory, a program is processed by a compiler in three basic 
 ### 中級
 
 + [ ] 知道 `class繼承` 與`組合寄生`繼承的差別，並能舉例說明。
-+ [ ] 知道 `event loop` 原理，知道宏微任務，並且能從個人理解層面說出為什麼要區分。知道 node 和瀏覽器在實現 loop 時候的差別。
++ [ ] 知道 `event loop` 原理，知道 microtask 、 macrotask 差異，並且能從個人理解層面說出為什麼要區分。知道 node 和瀏覽器在實現 loop 時候的差別。
 + [ ] 能將繼承、作用域、閉包、模塊這些概念融匯貫通，並且結合實際例子說明這幾個概念怎樣結合在一起。
 + [ ] 能脫口而出2種以上設計模式的核心思想，並結合 `js` 語言特性舉例或口噴基礎實現。
 + [ ] 掌握一些基礎算法**核心思想**或簡單算法問題，比如排序，大數相加。
