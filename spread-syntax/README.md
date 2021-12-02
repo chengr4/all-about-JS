@@ -1,5 +1,7 @@
 # Spread Syntax
 
+Spread syntax effectively goes **one level deep** while copying an array (and I think object also)
+
 ## Spread in object literals
 
 > Add from ES2018
