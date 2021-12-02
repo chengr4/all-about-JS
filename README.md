@@ -5,6 +5,7 @@
 + [Generators](./Generators)
 + [this](./this)
 + [Scope and Closures](./ScopeAndClosures)
++ [Spread Syntax](./spread-syntax)
 + [Functional Programming](./Functional-Programming)
 + [Modules](./modules)
 + [About Memory](./memory)
