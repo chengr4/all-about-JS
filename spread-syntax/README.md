@@ -5,6 +5,7 @@ Spread syntax effectively goes **one level deep** while copying an array (and I 
 ## Spread in object literals
 
 > Add from ES2018
+> Can not spread but clone
 
 Shallow-cloning (instead of `Objext.assign()`):
 
