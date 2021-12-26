@@ -6,9 +6,11 @@
 
 ## `interface`
 
+> Interfaces are basically a way to describe data shapes, for example, an object
+
 - TS only
-- Enfore a certain structure of a class or object (define the shape)
-- `interface` can extend another `interface`
+- Enfore a certain structure of a class or object (define the shape) => Interfaces are better when you need to define a new object or method of an object.
+- `interface` can extend another `interface`, `class`
 - `interface` will merge same `interface` automatically (delcaration merging)
 - `interface` does not have Union `|` feature
 
@@ -78,8 +80,10 @@ interface Harry extends Person {
 
 Type Alias
 
+> Type is a definition of a type of data, for example, a union, primitive, intersection, tuple, or any other type.
+
 - `type` cannot extend another `type`
-- `type` has Union `|` feature
+- `type` has Union `|`, Intersection `&` features
 - Functions are better `type` than `interface`
 
 ```typescript
@@ -96,6 +100,14 @@ type Youtuber = {
 
 // Use Union
 type Harry = Person | Youtuber;
+```
+
+### Tuple
+
+> we can only declare tuples using types and not interfaces.
+
+```typescript
+type Reponse = [string, number]
 ```
 
 ## Generics
