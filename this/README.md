@@ -1,5 +1,9 @@
 # `this`
 
+Q: What is `this`?
+
+A: It’s like a hidden argument to your function. calls with dot, like `obj.fn()`, pass the part before the dot (obj) as `this`. Calls without a dot, like `fn()`, don’t pass any `this`. If you didn’t pass any `this`, it’s set to a default (`undefined` in strict mode, `window` in loose mode). -- Dan Abramov
+
 `this` in JS is not a fixed characteristic of a function based on the function's definition, but rather a dynamic characteristic that's determined each time the function is called (execution context).
 
 > Two misconception:
