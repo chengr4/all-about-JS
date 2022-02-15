@@ -1,5 +1,6 @@
 # Generators
 
++ Generators let your function return multiple values. not necessarily immediately — **the caller** decides when to ask for the next one.
 + Generators are functions which can be exited and later re-entered.
 + When put a `*` after a function, it is a generator.
 
@@ -8,8 +9,9 @@
   ```javascript
   function* gen() {} 
   ```
+## When to Use?
 
-It don't fire the code, instead, it will set up the generator and **return** towards an interator.
+- Useful to describe operations where you can “ask for more”, like processing a long list or deciding each next step based on user input
 
 ## Yield
 
