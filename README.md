@@ -249,6 +249,12 @@ In classic compiler theory, a program is processed by a compiler in three basic 
 
 Imagine functions only take one argument. how would we pass many? one way is to pass an object: `({ a, b, c }) => …` but we could also turn our function into a matryoshka of many functions where each takes one arg: `(a) => (b) => (c) => …` that’s currying. Not very useful in js. -- Dan Abramov
 
+---
+
+### What is `bind()`?
+
+`this` is a hidden argument to your function. `bind` wraps a function with the `this` you provide so that you don’t need to remember to pass the correct `this` every time. -- Dan Abramov
+
 ## 學習事項
 
 ### Finished
