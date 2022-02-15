@@ -122,6 +122,8 @@ for (let [idx,val] of arr.entries()) {
 
 ### Map
 
+---
+
 ## JS Engine
 
 + Browser: Chakra, JavaScriptCore, Spidermonkey, V8
@@ -158,7 +160,7 @@ fetch('XXXXXXX')
   .catch(err => console.log(error));
 ```
 
-> `fetch` will always **succeed** (So even the server return status 400, it will "fetch" something)
+> `fetch` will always **succeed** (So even the server returns status 400, it will "fetch" something)
 
 ### What is a polyfill ?
 
@@ -184,7 +186,7 @@ pr
 
 > Transpilers like Babel typically detect which polyfills your code needs and provide them automatically for you. But occasionally you may need to include/define them explicitly, which works similar to the snippet we just looked at.
 
-****
+---
 
 ### Some function express forms
 
@@ -215,6 +217,8 @@ someOperation( x => x * 2 );
 
 > Keep in mind that arrow function expressions are **syntactically anonymous**, meaning the syntax doesn't provide a way to provide a direct name identifier for the function.
 
+---
+
 ### Two motivations for WASM (Web Assembly)
 
 1. Improve the potential performance
@@ -238,6 +242,12 @@ In classic compiler theory, a program is processed by a compiler in three basic 
 3. **Code Generation**: taking an AST and turning it into executable code. This part varies greatly depending on the language, the platform it's targeting, and other factors.
 
    The JS engine takes the just described AST for `var x = 2;` and turns it into a set of machine instructions to actually create a variable called `x` (including reserving memory, etc.), and then store a value into `x`.
+   
+---
+
+### What is currying?
+
+Imagine functions only take one argument. how would we pass many? one way is to pass an object: `({ a, b, c }) => …` but we could also turn our function into a matryoshka of many functions where each takes one arg: `(a) => (b) => (c) => …` that’s currying. Not very useful in js. -- Dan Abramov
 
 ## 學習事項
 
