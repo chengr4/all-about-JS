@@ -19,7 +19,7 @@ Scope is primarily determined during **compilation** => Sould not renerally be a
 
 ## Closure
 
-定義：Closure 是指 function 記住並繼續存取其 scope 外的 variable，即使該 function 在不同的 scope 中執行。
+定義：Closure 是指 function 記住並繼續存取其 scope 外的 variable，即使該 function 在不同的 scope 中執行。So functions can read or write variables “outside” of them. This works not only with top level variables, but with local variables too (from nested functions).
 
 E.g.
 
