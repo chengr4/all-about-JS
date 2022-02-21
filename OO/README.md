@@ -1,4 +1,4 @@
-# Obect Oriented JavaScript
+# Object Oriented JavaScript
 
 > Everything in JS is an Object
 
