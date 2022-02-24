@@ -2,7 +2,7 @@
 
 - [interface](#interface)
 - [type](#type)
-- [Generics](#generics)
+- [Generics](./generics)
 
 ## `interface`
 
@@ -104,76 +104,19 @@ type Harry = Person | Youtuber;
 
 ### Tuple
 
+A tuple type is another sort of Array type that knows exactly how many elements it contains, and exactly which types it contains at specific positions.
+
 > we can only declare tuples using types and not interfaces.
 
 ```typescript
 type Reponse = [string, number]
 ```
 
-## Generics
-
-- We need a way of capturing the type of the argument in such a way that we can also use it to denote what is being returned.
-
-### Goal
-
-- To create reusable components
-
----
-
-
- 
-### Other Examples
-
-```typescript
-const last = <T>(arr: T[]) => {
-  return arr[arr.length - 1];
-}
-
-const l2 = last<string>(["a", "b", "c"]);
-
-const makeFullName = <T extends { firstName: string; lastName: string }>(
-  obj: T
-) => {
-  return {
-    ...obj,
-    fullName: obj.first.Name + ' ' + obj.lastName
-  };
-}
-```
-
-With `interface`
-
-```typescript
-interface Tab<T> {
-  id: string;
-  position: number;
-  data: T;
-}
-
-type numberTab = Tab<number>;
-
-```
-
-In React
-
-```typescript
-import React from "react";
-
-interface Props {
-  name: string
-}
-
-const HelloWorld: React.FC<Props> = ({ name }) => 
-
-  return <div> hello {name}</div>;
-}
-```
-
 ## Finished Topics
 
-### Type Manipulation
+### Handbook
 
-- [ ] [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
+- [x] [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
 ## References
 
