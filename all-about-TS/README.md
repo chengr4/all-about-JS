@@ -112,6 +112,18 @@ type Reponse = [string, number]
 
 ## Generics
 
+- We need a way of capturing the type of the argument in such a way that we can also use it to denote what is being returned.
+
+### Goal
+
+- To create reusable components
+
+---
+
+
+ 
+### Other Examples
+
 ```typescript
 const last = <T>(arr: T[]) => {
   return arr[arr.length - 1];
@@ -124,7 +136,7 @@ const makeFullName = <T extends { firstName: string; lastName: string }>(
 ) => {
   return {
     ...obj,
-    fullName: obj.first.Name + ' ' + ojb.lastName
+    fullName: obj.first.Name + ' ' + obj.lastName
   };
 }
 ```
@@ -156,6 +168,12 @@ const HelloWorld: React.FC<Props> = ({ name }) =>
   return <div> hello {name}</div>;
 }
 ```
+
+## Finished Topics
+
+### Type Manipulation
+
+- [ ] [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
 ## References
 
