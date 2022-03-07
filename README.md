@@ -65,6 +65,8 @@ typeof function hello(){};  // "function"
 
 ## Comparisons
 
+> About 'falsy': https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
 ### `==` vs. `===`
 
 + If the comparison is between the same value type, both `==` and `===` **do exactly the same thing, no difference whatsoever**
