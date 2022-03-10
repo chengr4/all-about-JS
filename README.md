@@ -6,6 +6,7 @@
 + [this](./this)
 + [Scope and Closures](./ScopeAndClosures)
 + [Spread Syntax](./spread-syntax)
++ [Date](./date)
 + [Functional Programming](./Functional-Programming)
 + [Modules](./modules)
 + [About Memory](./memory)
