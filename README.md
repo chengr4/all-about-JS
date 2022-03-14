@@ -12,6 +12,7 @@
 + [About Memory](./memory)
 + [JS Engine](#js-engine)
 + [Other Notes](#other-notes)
++ [Utilities](./util)
 
 ## History of JS
 
