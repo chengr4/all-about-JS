@@ -30,6 +30,9 @@
 ## Attributes
 
 1. Dynamically typed (use `var` instead of `int, float, String...`)
+2. pass by value + pass by copy of a reference
+
+> https://stackoverflow.com/questions/13104494/does-javascript-pass-by-reference
 
 ## Value
 
