@@ -1,6 +1,17 @@
-# High order functions & Arrays
+# Array
 
-## Contents
+## Useful Strategies
+
+- Swap
+
+```javascript
+[a, b] = [b, a];
+
+const arr = [1, 2, 3, 4];
+[arr[0], arr[1]] = [arr[1], arr[0]];
+```
+
+## High order functions
 
 + [forEach()](#foreach)
 + [filter()](#filter)
@@ -10,35 +21,33 @@
 + [reduce()](#reduce)
 + [sort()](sort)
 
-## forEach()
+### forEach()
 
 > Q: 可否中斷 forEach()
 > 
 > A: There is no way to stop or break a forEach() loop other than by throwing an exception. If you need such behavior, the forEach() method is the wrong tool. (from MDN Web Docs)
 
-## filter()
+### filter()
 
 [^1]
 
-
-
-## map()
+### map()
 
 **creates a new array**
 
-## splice()
+### splice()
 
-## find()
+### find()
 
 E.g.
 
-## reduce()
+### reduce()
 
 ```
 arr.reduce(callback[accumulator, currentValue, currentIndex, array], initialValue)
 ```
 
-### Usages
+#### Usages
 
 E.g.
 Return a value that contains the latest date [2]

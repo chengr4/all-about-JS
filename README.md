@@ -1,7 +1,7 @@
 # All about JavaScript
 
 + [Object Oriented](./OO)
-+ [High order functions & Arrays](./High-order-functions&Arrays)
++ [Array](./array)
 + [Generators](./Generators)
 + [this](./this)
 + [Scope and Closures](./ScopeAndClosures)
