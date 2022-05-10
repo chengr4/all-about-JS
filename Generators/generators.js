@@ -26,10 +26,10 @@ function* gen3() {
 }
 
 var myGen3 = gen3();
-myGen3.next();
-myGen3.next(2);
-myGen3.next(4);
-console.log("x is: "+ myGen3.next().value);
+myGen3.next(); // a
+myGen3.next(2); // b
+myGen3.next(4); // c
+console.log("x is: "+ myGen3.next().value); // x is: 2
 
 // asynchronous part begin
 function* gen4() {
