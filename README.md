@@ -301,3 +301,4 @@ Imagine functions only take one argument. how would we pass many? one way is to 
 4. [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
 5. [Franziska Hinkelmann: JavaScript engines - how do they even? | JSConf EU](https://youtu.be/p-iiEDtpy6I)
 6. https://twitter.com/dan_abramov/status/1492880870499360769
+7. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
