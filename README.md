@@ -13,6 +13,7 @@
 + [JS Engine](#js-engine)
 + [Other Notes](#other-notes)
 + [Utilities](./util)
++ [Regular Expression](./regex)
 
 ## History of JS
 
@@ -43,8 +44,6 @@ Primitive value: strings, numbers, booleans, `null`, `defined`, `Symbol`
 Object: **arrays**, objects, functions
 
 > Primitive values are always assigned/passed as **value copies** in JS
->
-> 
 
 ### `undefined` vs. `null`
 
