@@ -66,7 +66,7 @@ typeof [1,2,3];             // "object"
 typeof function hello(){};  // "function"
 ```
 
-> **Warning**
+> **Warning**   
 > `typeof null` unfortunately returns `"object"` instead of the expected `"null"`. Also, `typeof` returns the specific `"function"` for functions, but not the expected `"array"` for arrays.
 
 ## Iterables
