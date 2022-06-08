@@ -14,6 +14,7 @@
 + [Other Notes](#other-notes)
 + [Utilities](./util)
 + [Regular Expression](./regex)
++ [Operators](./operators/)
 
 ## History of JS
 
@@ -33,7 +34,9 @@
 1. Dynamically typed (use `var` instead of `int, float, String...`)
 2. pass by value + pass by copy of a reference
 
-> https://stackoverflow.com/questions/13104494/does-javascript-pass-by-reference
+> https://stackoverflow.com/questions/13104494/does-javascript-pass-by-reference  
+> About `falsy`: https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
 
 ## Value
 
@@ -63,43 +66,8 @@ typeof [1,2,3];             // "object"
 typeof function hello(){};  // "function"
 ```
 
-| WARNING:                                                     |
-| ------------------------------------------------------------ |
-| `typeof null` unfortunately returns `"object"` instead of the expected `"null"`. Also, `typeof` returns the specific `"function"` for functions, but not the expected `"array"` for arrays. |
-
-## Comparisons
-
-> About `falsy`: https://developer.mozilla.org/en-US/docs/Glossary/Falsy
-
-### `==` vs. `===`
-
-+ If the comparison is between the same value type, both `==` and `===` **do exactly the same thing, no difference whatsoever**
-+ If the value types being compared are different, `==` allows type conversions *first*. (aka coercive equality)
-
-例如：
-
-```javascript
-42 == "42"; // true
-1 == true; // true
-```
-
-> `==` prefers primitive numeric comparisons
-
-### About `===`
-
-the `===` operator has two special cases:
-
-```javascript
-NaN === NaN; // false
-0 === -0; // true
-```
-
-Since the *lying* about such comparisons can be bothersome, it's best to avoid using `===` for them:
-
-+ For `NaN` comparisons, use the `Number.isNaN(..)` utility
-+ For `-0` comparison, use the `Object.is(..)` utility
-
-> Humorously, you could think of `Object.is(..)` as the "quadruple-equals" `====`, the really-really-strict comparison! (真的會笑死
+> **Warning**
+> `typeof null` unfortunately returns `"object"` instead of the expected `"null"`. Also, `typeof` returns the specific `"function"` for functions, but not the expected `"array"` for arrays.
 
 ## Iterables
 
