@@ -1,5 +1,9 @@
 # Array
 
+- [Useful Strategies](#useful-strategies)
+- [Traps](#trap)
+- [High Order Functions](#high-order-functions)
+
 ## Useful Strategies
 
 - Swap
@@ -11,7 +15,14 @@ const arr = [1, 2, 3, 4];
 [arr[0], arr[1]] = [arr[1], arr[0]];
 ```
 
-## High order functions
+## Traps
+
+```javascript
+// wrong! all empty array filled in share same address
+const freq = new Array(nums.length).fill([])
+```
+
+## High Order Functions
 
 + [forEach()](#foreach)
 + [filter()](#filter)
