@@ -122,7 +122,7 @@ In V8 engine, the baseline compiler is an intepreter called "Ignition" and the o
 
 ### Event Loop
 
-Event loop is a set of rules for how the runtime (browser / Node) decides what code to run when it has finished running the current code. E.g. “okay we’ve exited all functions, so now, let’s run expired timeouts”. that includes code after `await` if the thing has resolved -- Dan Abramov
+Event loop is a set of rules for how the runtime (browser / Node) decides what code to run when it has finished running the current code. E.g. “okay we’ve exited all functions, so now, let’s run expired timeouts”. that includes code after `await` if the thing has resolved -- [Dan Abramov](https://github.com/gaearon)
 
 ## Other Notes
 
