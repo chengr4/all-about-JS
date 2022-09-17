@@ -17,7 +17,7 @@ obj2[keyObj] = 3;
 console.log(obj2); // { '[object Object]': 3 }
 ```
 
-> Be careful if using an object as key, it will become only `'[object Object]'` no matter what the keyObj is
+> Be careful if using an object as key, it will become only `'[object Object]'` no matter what the keyObj is. Use `Map` can avoid the issue
 
 ## Object vs Set vs Map
 
