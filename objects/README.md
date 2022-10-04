@@ -27,3 +27,7 @@ Which uses Objects (a hash table, essentially). One immediate advantage of using
 - Larger array, using Objects becomes significantly faster.
 
 > What about `Map`?
+
+## `toJSON()`
+
+https://thecodebarbarian.com/what-is-the-tojson-function-in-javascript.html
