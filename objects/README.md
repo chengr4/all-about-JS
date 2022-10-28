@@ -31,3 +31,11 @@ Which uses Objects (a hash table, essentially). One immediate advantage of using
 ## `toJSON()`
 
 https://thecodebarbarian.com/what-is-the-tojson-function-in-javascript.html
+
+## Bigint
+
+- BigInt is a primitive wrapper object
+- BigInt is used to represent Integers greater than 2^53 -1.
+- (2^53) - 1 is the Maximum Number Primitive which can be safely represented using JavaScript.
+
+eg `(BigInt("0b11") + BigInt("0b1")).toString(2); // "100"`
