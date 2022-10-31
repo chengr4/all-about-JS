@@ -7,6 +7,7 @@
 
 - [Methods](#methods)
 - [Object vs Set vs Map](#object-vs-set-map)
+- [toJSON](#tojson)
 - [Bigint](#bigint)
 
 Eg
