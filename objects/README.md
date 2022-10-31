@@ -7,7 +7,7 @@
 
 - [Methods](#methods)
 - [Object vs Set vs Map](#object-vs-set-map)
-- [Bigint][#bigint]
+- [Bigint](#bigint)
 
 Eg
 
