@@ -3,6 +3,12 @@
 - key-value pair
 - Object coerces `keys` to become type `string`
 
+---
+
+- [Methods](#methods)
+- [Object vs Set vs Map](#object-vs-set-map)
+- [Bigint][#bigint]
+
 Eg
 
 ```javascript
@@ -19,6 +25,26 @@ console.log(obj2); // { '[object Object]': 3 }
 
 > Be careful if using an object as key, it will become only `'[object Object]'` no matter what the keyObj is. Use `Map` can avoid the issue
 
+## Methods
+
+### Object.assign()
+
+The `Object.assign()` method **copies** all **enumerable own properties** from one or more source objects to a target object. It returns the modified target object.
+
+```javascript
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+// target is front
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget === target);
+// expected output: true
+```
+
 ## Object vs Set vs Map
 
 Which uses Objects (a hash table, essentially). One immediate advantage of using Objects is that you can return early if you detect a duplicate, whereas with Sets, you have to convert the entire array to a Set before you can decide if there are duplicates. => 
@@ -28,7 +54,7 @@ Which uses Objects (a hash table, essentially). One immediate advantage of using
 
 > What about `Map`?
 
-## `toJSON()`
+## toJSON()
 
 https://thecodebarbarian.com/what-is-the-tojson-function-in-javascript.html
 
