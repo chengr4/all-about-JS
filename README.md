@@ -35,7 +35,8 @@
 2. pass by value + pass by copy of a reference
 
 > https://stackoverflow.com/questions/13104494/does-javascript-pass-by-reference  
-> About `falsy`: https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
+3. About `falsy`: https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 
 
 ## Value
