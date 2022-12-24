@@ -18,6 +18,9 @@ function* gen2() {
   console.log("c");
 }
 
+var myGen2 = gen2();
+myGen2.next(); // a
+
 function* gen3() {
   var x = yield 'a';
   var y = yield 'b';
@@ -37,6 +40,10 @@ function* gen4() {
  
   return x;
 }
+let myGen4 = gen4();
+console.log(myGen4.next());
+console.log(myGen4.next(3));
+
 
 // Infinite loop
 console.log("Infinite loop start");
@@ -82,3 +89,17 @@ console.log(b.next());
 console.log(b.next(2));
 console.log(l.next());
 console.log(l.next(2));
+
+function call() {
+  return 3;
+}
+
+function* gen5() {
+  let res = yield call();
+  return res;
+}
+
+let myGen5 = gen5();
+console.log('5', myGen5.next()); // 5 { value: 3, done: false }
+console.log('5', myGen5.next()); // 5 { value: undefined, done: true }
+console.log('5', myGen5.next());
