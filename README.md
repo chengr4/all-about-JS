@@ -121,10 +121,6 @@ Modern engines have at lease two compilers, one of them is an optimising compile
 
 In V8 engine, the baseline compiler is an intepreter called "Ignition" and the optimizing compiler is called "TurboFan" (2017).
 
-### Event Loop
-
-Event loop is a set of rules for how the runtime (browser / Node) decides what code to run when it has finished running the current code. E.g. “okay we’ve exited all functions, so now, let’s run expired timeouts”. that includes code after `await` if the thing has resolved -- [Dan Abramov](https://github.com/gaearon)
-
 ## Other Notes
 
 ### `fetch API`
